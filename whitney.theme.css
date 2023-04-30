@@ -1,0 +1,46 @@
+/**
+ * @name Whitney
+ * @author brianna alora
+ * @description Restores the old Whitney font that was replaced by gg sans.
+ * @version 0.0.1
+ */
+ 
+ :root {
+	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+	--font-korean: Whitney, "Apple SD Gothic Neo", "NanumBarunGothic", "\B9D1\C740 \ACE0\B515", "Malgun Gothic", Gulim, êµ´ë¦¼, Dotum, ë‹ì›€, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-japanese: Whitney, Hiragino Sans, "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-chinese-simplified: Whitney, "Microsoft YaHei New", å¾®è½¯é›…é»‘, "Microsoft Yahei", "Microsoft JhengHei", å®‹ä½“, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-chinese-traditional: Whitney, "Microsoft JhengHei", å¾®è»Ÿæ­£é»‘é«”, "Microsoft JhengHei UI", "Microsoft YaHei", å¾®è»Ÿé›…é»‘, å®‹ä½“, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+ 
+@font-face {
+	font-family: Whitney;
+	font-weight: 300;
+	src: url(/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff) format("woff")
+}
+ 
+@font-face {
+	font-family: Whitney;
+	font-weight: 400;
+	src: url(/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format("woff")
+}
+ 
+@font-face {
+	font-family: Whitney;
+	font-weight: 500;
+	src: url(/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format("woff")
+}
+ 
+@font-face {
+	font-family: Whitney;
+	font-weight: 600;
+	src: url(/assets/be0060dafb7a0e31d2a1ca17c0708636.woff) format("woff")
+}
+ 
+@font-face {
+	font-family: Whitney;
+	font-weight: 700;
+	src: url(/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff) format("woff")
+}
