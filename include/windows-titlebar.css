@@ -39,3 +39,8 @@
 .platform-win #app-mount .typeWindows-2-g3UY::before {
   content: none !important;
 }
+:is([class*=contents-], [class*=memberInner]):has([src*="562331932709486630"]) [class*=username] {
+  background: -webkit-linear-gradient(45deg, #e861b0, #16b0f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
